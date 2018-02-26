@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+
+    <!-- Bootstrap and CSS here-->
+  <link rel='stylesheet' type='text/css' href='style.css'>
+  <link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
+
+  </head>
+
+  <body>
+    <div id='app' class='container-fluid'>
+
+        <div id='headers'>
+            <h1 id='title'>Play the Guessing Game!</h1>
+            <h5 id='subtitle'>Guess a number between 1-100</h3>
+        </div>
+
+      <div id='main' class='text-center'>
+        <div id='input-parent'>
+          <input id='players-input' placeholder="#" maxlength='3' autofocus=autofocus></input>
+          <button id='submit'>Go!</button>
+        </div>
+
+          <div id='guesses'>
+            <ul id='guesses-list'>
+              <li class='guess'>?</li>
+              <li class='guess'>?</li>
+              <li class='guess'>?</li>
+              <li class='guess'>?</li>
+              <li class='guess'>?</li>
+            </ul>
+          </div>
+
+        <div id="menu-btns">
+          <button id='reset'>Reset</button>
+          <button id='hint'>Hint</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div id='footer' class='text-center'>
+      <div class='row'>
+
+        <div class='col-sm-5'>
+          <img src='fa-logo@2x.png' class='img-responsive'></img>
+        </div>
+
+        <div class='col-sm-2'>
+          <p id='myname'>A project by Destin McMurry</p>
+        </div>
+
+        <div class='col-sm-5'>
+          <img src='grace_hopper_academy.png' class='img-responsive'></img>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>
